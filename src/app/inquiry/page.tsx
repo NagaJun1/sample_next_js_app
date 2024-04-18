@@ -2,13 +2,15 @@
 
 import { Header } from "@/components/header";
 
-export default function Home() {
+const Page = () => {
   return (<div>
     <div className="sticky top-0 ">
       <Header />
     </div>
-    <div className="text-xl p-4">
-      ホーム画面
+    <div className="p-4 text-xl">
+      問い合わせ画面
     </div>
   </div>);
 }
+
+export default Page;
