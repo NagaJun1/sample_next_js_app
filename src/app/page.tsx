@@ -10,5 +10,11 @@ export default function Home() {
     <div className="text-xl p-4">
       ホーム画面
     </div>
+    <div>
+      コード：https://github.com/NagaJun1/sample_next_js_app
+    </div>
+    <div>
+      パネル一覧は、「オフィス検索」押下で、画面遷移
+    </div>
   </div>);
 }
